@@ -4,6 +4,8 @@ import { StyleSheet, Text, View } from 'react-native';
 import  styles from "./Styles";
 import { BatLogo } from "../../components/BatLogo/Batlogo";
 import { BatTextInput } from "../../components/BatTextInput/BatTextInput";
+import { BatButtom } from "../../components/BatButtom/BatButtom";
+
 
 
 //funcao que ira retornar o componente
@@ -16,6 +18,7 @@ export default function Home() {
 
             <View style={styles.inputContainer}> 
             <BatTextInput />
+            <BatButtom />
             </View>
 
             <StatusBar style="light" />
